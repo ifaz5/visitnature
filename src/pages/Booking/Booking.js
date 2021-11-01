@@ -12,7 +12,7 @@ const Booking = ({service}) => {
     const status = 'Approved';
     
     const onSubmit = data => {
-        fetch('https://spooky-catacombs-20536.herokuapp.com/services/booking', {
+        fetch('https://bloodcurdling-cat-39172.herokuapp.com/services/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

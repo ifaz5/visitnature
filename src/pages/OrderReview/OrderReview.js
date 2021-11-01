@@ -6,7 +6,7 @@ const OrderReview = () => {
     const [service, setService] = useState();
     const { id } = useParams();
       useEffect(() => {
-          const url = `https://spooky-catacombs-20536.herokuapp.com/services/${id}`
+          const url = `https://bloodcurdling-cat-39172.herokuapp.com/services/${id}`
           fetch(url)
               .then(res => res.json())
               .then(data => setService(data))
