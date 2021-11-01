@@ -19,8 +19,9 @@ const OrderReview = () => {
                 <div className="text-center bg-green-600 hover:bg-green-700 transition 3s rounded text-white pb-3">
                     <img className="h-80 mb-3 rounded" src={service?.data.photoUrl} alt="" />
                     <h4>{service?.data.name}</h4>
-                    <h5>{service?.data.duration}</h5>
-                    <h6>${service?.data.price}</h6>
+                    <h5>Service available at:{service?.data.duration}</h5>
+                    <h6>price: {service?.data.price} BDT</h6>
+                    <p>{service?.data.description}</p>
                 </div>
                 <div>
                     <Booking service={service} />

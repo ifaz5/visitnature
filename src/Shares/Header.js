@@ -16,9 +16,10 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <Link className="no-underline font-medium px-2 pt-1 text-white mx-2 rounded transition duration-500 ease-in-out hover:bg-green-500 text-lg" to="/">Home</Link>
-                    <Link className="no-underline font-medium px-2 pt-1 text-white mx-2 rounded transition duration-500 ease-in-out hover:bg-green-500 text-lg" to="/dashboard">Dashboard</Link>
                     <Link className="no-underline font-medium px-2 pt-1 text-white mx-2 rounded transition duration-500 ease-in-out hover:bg-green-500 text-lg" to="/blog">Blog</Link>
                     <Link className="no-underline font-medium px-2 pt-1 text-white mx-2 rounded transition duration-500 ease-in-out hover:bg-green-500 text-lg" to="/about">About Us</Link>
+                    <Link className="no-underline font-medium px-2 pt-1 text-white mx-2 rounded transition duration-500 ease-in-out hover:bg-green-500 text-lg" to="/dashboard">Dashboard</Link>
+
                     
                     {
                         user?.email ? 
