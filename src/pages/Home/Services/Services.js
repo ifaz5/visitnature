@@ -11,10 +11,13 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="grid grid-rows-1 grid-cols-4">
+        <div className="w-100">
+
+<div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
             {
                 services.map(service => <Service service={service} key={service._id} />)
             }
+        </div>
         </div>
     );
 };
